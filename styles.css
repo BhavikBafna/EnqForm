@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin:auto;
+    width: 80%;
+    /* background-color: rgb(188, 240, 223); */
+    padding: 34px;
+
+}
+
+.container h2{
+    text-align: center;
+    font-family: 'Borel', cursive;
+}
+p{
+    font-size: 20px;
+    padding: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+input,textarea {
+
+    width: 80%;
+    margin: 8px 0px;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    outline: none;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(178, 171, 124);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    
+    /* margin:0 1px;
+    padding: 0px; */
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+
+    
+}
+.enqForm{
+    font-family: 'Roboto', sans-serif;
+    color: green;
+}
